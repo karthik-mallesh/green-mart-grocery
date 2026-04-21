@@ -88,7 +88,7 @@ const Hero = () => {
                 rounded-full
                 text-sm
                 font-medium
-                mb-4"
+                mb-4 mt-2"
               >
                 Fresh Grocery Store 🥬
               </span>

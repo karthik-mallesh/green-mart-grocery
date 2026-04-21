@@ -23,8 +23,8 @@ import AllProducts from "./pages/admin/AllProducts";
 import Orders from "./pages/admin/Orders";
 import AddProduct from "./pages/admin/AddProduct";
 import AddCategory from "./pages/admin/AddCategory";
-import Navbar from "./components/NavBar";
 import MyOrder from "./pages/MyOrders";
+import Navbar from "./components/Navbar";
 const App = () => {
   const adminPath = useLocation().pathname.includes("admin");
   const { admin } = useContext(AppContext);
